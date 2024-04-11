@@ -1,0 +1,117 @@
+@media (max-width: 576px) {
+  
+  .nav-bar-container {
+    background-color: #e2e8f0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .website-logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .menu-icon-btn{
+    border-width: 0px;
+    background-color: transparent;
+    margin-right: 20px;
+  }
+  .xmark-icon-btn{
+    border-width: 0px;
+    background-color: transparent;
+    margin-right: 20px;
+  }
+  .navbar-texts-container {
+    display: none;
+  }
+  .list-item-navbar {
+    list-style-type: none;
+    font-family: "system-ui";
+  }
+  .text-in-mobile-nav {
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .mobile-nav-texts-container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .menu-icon-btn{
+    border-width: 0px;
+    background-color: transparent;
+    display: none;
+  }
+  .xmark-icon-btn{
+    display: none;
+    border-width: 0px;
+    background-color: transparent;
+  }
+  .nav-bar-container {
+    background-color:  #e2e8f0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .website-logo {
+    height: 60px;
+    width: 80px;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .navbar-texts-container {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+  }
+  .list-item-navbar {
+    list-style-type: none;
+    font-family: "system-ui";
+  }
+  .text-in-navbar{
+    font-family: "system-ui";
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .logout-btn {
+    height: 34px;
+    width: 100px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: #4f46e5;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  .home-link-item {
+    text-decoration: none;
+  }
+
+}

@@ -1,0 +1,26 @@
+.notfound-bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .notfound-img {
+    height: 350px;
+    width: 400px;
+  }
+  .notfound-text {
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #111111;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .notfound-description {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+  }
+  

@@ -1,0 +1,128 @@
+@media (min-width: 768px){
+    .footer-bg-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #68BBE3;
+        height: 50vh;
+        padding: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .website-logo-icons-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .website-logo-container{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .website-logo2{
+        height: 60px;
+        width: 80px;
+        cursor: pointer;
+    }
+    .logo-text{
+        font-family: "system-ui";
+        font-size: 18px;
+        color: #FFDB00;
+        font-weight: 500;
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .icons-container{
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .social-icon{
+        height: 28px;
+        width: 28px;
+    }
+
+    .website-details-bg-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footers-heding{
+        font-family: "system-ui";
+        font-size: 20px;
+        color: #000000;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    .detail-name{
+        font-family: "Roboto";
+        font-size: 16px;
+        color: #181818;
+        text-decoration: none;
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 568px){
+    .footer-bg-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #68BBE3;
+        height: 100vh;
+        padding: 15px;
+        padding-left: 40px;
+    }
+    .website-logo-icons-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .website-logo-container{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .website-logo2{
+        height: 30px;
+        width: 40px;
+        cursor: pointer;
+    }
+    .logo-text{
+        font-family: "system-ui";
+        font-size: 16px;
+        color: #FFDB00;
+        font-weight: 500;
+        align-self: flex-end;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .icons-container{
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .social-icon{
+        height: 22px;
+        width: 22px;
+    }
+
+    .website-details-bg-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footers-heding{
+        font-family: "system-ui";
+        font-size: 18px;
+        color: #000000;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+    .detail-name{
+        font-family: "Roboto";
+        font-size: 14px;
+        color: #181818;
+        text-decoration: none;
+        margin-bottom: 4px;
+    }
+}

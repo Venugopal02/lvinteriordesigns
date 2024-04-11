@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
+import Gallery from './components/Gallery';
+import ModularKitchen from './components/ModularKitchen';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Navbar/>
+    <Routes>
+        <Route index element={<Home/>} />
+        <Route  path='/'  element={<Home/>} />
+        <Route path='/Gallery' element={<Gallery/>} />
+        <Route path='/ModularKitchen' element={<ModularKitchen/>} />
+        <Route  path='*' element={<NotFound/>} />
+    </Routes>   
+  </BrowserRouter>
+)
 
 export default App;
